@@ -15,7 +15,7 @@ app.use(logger("dev"));
 const tweetRoute = require("./routes/tweetRoute.js");
 
 //Initializing Routes
-app.use("/api/v1", tweetRoute);
+app.use("/api", tweetRoute);
 
 
 app.listen(PORT, () => {

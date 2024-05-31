@@ -7,9 +7,9 @@ const {
   getSingleTweet,
 } = require("../controller/tweetController");
 
-router.post("/contact", postTweet);
-router.get("/contact", getTweets);
-router.get("/contact/:id", getSingleTweet);
-router.delete("/contact/:id", deleteTweet);
+router.post("/tweet", postTweet);
+router.get("/tweets", getTweets);
+router.get("/tweet/:id", getSingleTweet);
+router.delete("/tweet/:id", deleteTweet);
 
 module.exports = router;
